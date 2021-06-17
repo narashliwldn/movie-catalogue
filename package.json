@@ -26,6 +26,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "regenerator-runtime": "^0.13.7"
+    "regenerator-runtime": "^0.13.7",
+    "serviceworker-webpack-plugin": "^1.0.1"
   }
 }
