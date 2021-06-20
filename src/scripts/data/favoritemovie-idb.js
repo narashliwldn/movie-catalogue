@@ -12,7 +12,7 @@ const FavoriteMovieIDB = {
   async getMovie(id) {
     return (await dbPromise).get(OBJECT_STORE_NAME, id);
   },
-  async getAllMovie(){
+  async getAllMovies(){
     return (await dbPromise).getAll(OBJECT_STORE_NAME);
   },
   async putMovie(movie){
